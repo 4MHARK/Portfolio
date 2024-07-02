@@ -220,6 +220,7 @@ p {
 
 .contact-info {
     width: 40%;
+    padding-top: 60px;
 }
 
 .phone .material-symbols-outlined{
@@ -239,6 +240,7 @@ p {
     color: white;
     padding: 20px;
     padding-bottom: 70px;
+    margin-left: 200px;
 }
 
  .contact-form input,
