@@ -1,0 +1,96 @@
+@media (max-width: 768px) {
+    .developer-profile {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .content, .illustration {
+      max-width: 100%;
+    }
+  
+    .social-links {
+      justify-content: center;
+    }
+  }
+  @media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar-menu {
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .navbar-menu li {
+        margin: 0.5rem 0;
+    }
+    .content, .about-me-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-image, .about-me {
+        width: 90%;   
+        margin: 10px auto;
+    }
+}
+/* Base styles: Mobile first (applies to all sizes until overridden by media queries) */
+.body {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.navbar {
+    background: #333;
+    color: #fff;
+}
+
+.content {
+    margin: 10px 0;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .body {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .navbar {
+        background: #555;
+    }
+
+    .content {
+        margin: 20px 15px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .body {
+        padding: 30px;
+        font-size: 20px;
+    }
+
+    .navbar {
+        background: #777;
+    }
+
+    .content {
+        margin: 30px 20px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .body {
+        padding: 40px;
+        font-size: 22px;
+    }
+
+    .navbar {
+        background: #999;
+    }
+
+    .content {
+        margin: 40px 25px;
+    }
+}
